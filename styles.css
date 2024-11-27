@@ -1,20 +1,39 @@
 /*  your css code here. If applicable */
+body {
+	padding: 0px;
+	margin: 0px;
+}
 .container {
 	display: flex;
 	direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: flex-start;
+	width: 600px;
+	height: 300px;
 	
 }
 .hero {
 	display: flex;
-	width: 600px;
+	flex-direction: column;
+	width: 300px;
 	height: 200px;
-	flex-direction: row;
-	background-color:red;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+	al
+	padding: 0px;
+	margin: 0px;
+	
 }
 #img {
-	object-fit: cover;
+	width:280px;
 	height: 200px;
-	width: 300px;
+	object-fit: cover;
+	padding: 0px;
+	margin: 0px;
 }
+#submit {
+	background-color: red;
+	
+}
+
